@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">IQ Dom</string>
+    <string name="Powitanie">Witaj w IQ Dom</string>
+    <string name="Logowanie">Podaj login oraz hasło</string>
+    <string name="Wyslij">Wyślij</string>
+    <string name="Login">Login</string>
+    <string name="Menu">Menu</string>
+    <string name="Blad_Logowania">Błąd Logowania</string>
+    <string name="main_activity">Logowanie</string>
+    <string name="laczenie">Łączenie</string>
+    <string name="blad_logowania">Błąd logowania za chwilę nastąpi szybkie wyłączenie aplikacji papa</string>
+    <string name="papa">papa</string>
+    <string name="blad_laczenia">Błąd połączenia</string>
+    <string name="Zaproszenie">Wybierz kondygnacje</string>
+    <string name="brama">Brama</string>
+    <string name="internet">Internet</string>
+    <string name="listwy">Listwa zasilająca</string>
+    <string name="swiatlo">Światło</string>
+    <string name="zarzadzaj_swiatlem">Tu możesz zarządzać światłem</string>
+    <string name="wylacz">Wyłącz</string>
+    <string name="wlacz">Włącz</string>
+    <string name="odswiez">odśwież</string>
+    <string name="zarzadzaj_internetem">Tu możesz zarządzać aktywnością wifi</string>
+    <string name="zarzadzaj_brama">Tu możesz zarządzać stanem bramy</string>
+    <string name="zarzadzaj_zasilaniem">Tu możesz zmieniać ustawienia bramy</string>
+    <string name="error">Błąd</string>
+    <string name="haslo">Hasło</string>
+    <string name="moc">Moc</string>
+
+</resources>

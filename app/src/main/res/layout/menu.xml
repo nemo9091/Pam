@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/Powitanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Powitanie"
+        app:layout_constraintBottom_toTopOf="@id/Zaproszenie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/Zaproszenie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Zaproszenie"
+        app:layout_constraintBottom_toTopOf="@id/swiatlo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Powitanie"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/swiatlo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/swiatlo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/listwy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Zaproszenie" />
+
+    <Button
+        android:id="@+id/listwy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/listwy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/internet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/swiatlo" />
+
+    <Button
+        android:id="@+id/internet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/internet"
+        app:layout_constraintBottom_toTopOf="@id/brama"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/listwy" />
+
+    <Button
+        android:id="@+id/brama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/brama"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/internet" />
+
+    <TextView
+        android:id="@+id/nick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/swiatlo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Zaproszenie" />
+
+    <TextView
+        android:id="@+id/moc_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="47dp"
+        app:layout_constraintBottom_toTopOf="@+id/listwy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swiatlo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

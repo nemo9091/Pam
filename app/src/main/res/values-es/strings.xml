@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IQ Dom</string>
+    <string name="Powitanie">Bienvenido a IQ Dom</string>
+    <string name="Logowanie">Ingrese su nombre de usuario y contraseña</string>
+    <string name="Wyslij">Enviar</string>
+    <string name="Login">Acceso</string>
+    <string name="Menu">Menú</string>
+    <string name="Blad_Logowania">Error de inicio de sesión</string>
+    <string name="main_activity">Acceso</string>
+    <string name="laczenie">Conexión</string>
+    <string name="blad_logowania">Error de inicio de sesión. En un momento, la aplicación papa se cerrará rápidamente.</string>
+    <string name="papa">adiós</string>
+    <string name="blad_laczenia">Error de conexión</string>
+    <string name="Zaproszenie">Seleccionar historias</string>
+    <string name="brama">portón</string>
+    <string name="internet">Internet</string>
+    <string name="listwy">regleta</string>
+    <string name="swiatlo">Ligero</string>
+    <string name="zarzadzaj_swiatlem">Aquí puedes gestionar tu luz</string>
+    <string name="wylacz">Apagado</string>
+    <string name="wlacz">Encender</string>
+    <string name="odswiez">actualizar</string>
+    <string name="zarzadzaj_internetem">Aquí puedes administrar la actividad wifi</string>
+    <string name="error">Error</string>
+    <string name="zarzadzaj_brama">Aquí puede administrar el estado de la puerta</string>
+    <string name="zarzadzaj_zasilaniem">Aquí puede cambiar la configuración de la puerta de enlace</string>
+    <string name="haslo">Contraseña</string>
+    <string name="moc">Energía</string>
+</resources>

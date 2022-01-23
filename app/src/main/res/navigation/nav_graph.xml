@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/logowanie">
+
+    <fragment
+        android:id="@+id/activity_main"
+        android:name="com.example.a9.MainActivity"
+        android:label="@string/main_activity"
+        tools:layout="@layout/activity_main">
+        <action
+            android:id="@+id/action_logowanie_to_menu"
+            app:destination="@id/menuActivity" />
+        <action
+            android:id="@+id/action_logowanie_to_blad_logowania"
+            app:destination="@id/blad_logowania" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuActivity"
+        android:name="com.example.a9.MenuActivity"
+        android:label="@string/Menu"
+        tools:layout="@layout/menuActivity">
+        <action
+            android:id="@+id/action_menu_to_swiatlo"
+            app:destination="@id/swiatlo1" />
+        <action
+            android:id="@+id/action_menu_to_brama"
+            app:destination="@id/brama" />
+        <action
+            android:id="@+id/action_menu_to_internet"
+            app:destination="@id/internet" />
+        <action
+            android:id="@+id/action_menu_to_listwy_zasilajace"
+            app:destination="@id/listwy_zasilajace" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/blad_logowania"
+        android:name="com.example.a9.Blad_Logowania"
+        android:label="@string/Blad_Logowania"
+        tools:layout="@layout/blad_logowania"/>
+
+    <fragment
+        android:id="@+id/swiatlo1"
+        android:name="com.example.a9.Swiatlo"
+        android:label="@string/swiatlo"
+        tools:layout="@layout/swiatlo"/>
+
+    <fragment
+        android:id="@+id/brama"
+        android:name="com.example.a9.Brama"
+        android:label="@string/brama"
+        tools:layout="@layout/brama"/>
+
+    <fragment
+        android:id="@+id/internet"
+        android:name="com.example.a9.Internet"
+        android:label="@string/internet"
+        tools:layout="@layout/internet"/>
+
+    <fragment
+        android:id="@+id/listwy_zasilajace"
+        android:name="com.example.a9.Listwy_Zasilajace"
+        android:label="@string/listwy"
+        tools:layout="@layout/listwy_zasilajace"/>
+
+
+</navigation>

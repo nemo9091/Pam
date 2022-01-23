@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IQ Dom</string>
+    <string name="Powitanie">Welcome to IQ Dom</string>
+    <string name="Logowanie">Enter your login and password</string>
+    <string name="Wyslij">Send</string>
+    <string name="Blad_Logowania">Login error</string>
+    <string name="main_activity">Login</string>
+    <string name="laczenie">Connection</string>
+    <string name="blad_logowania">Login error. In a moment, the papa application will be shut down quickly</string>
+    <string name="papa">bye Bye</string>
+    <string name="blad_laczenia">Connection error</string>
+    <string name="Zaproszenie">Select stories</string>
+    <string name="brama">gate</string>
+    <string name="listwy">Power strip</string>
+    <string name="swiatlo">Light</string>
+    <string name="zarzadzaj_swiatlem">Here you can manage your light</string>
+    <string name="wylacz">Turn it off</string>
+    <string name="wlacz">Turn on</string>
+    <string name="odswiez">refresh</string>
+    <string name="zarzadzaj_internetem">Here you can manage wifi activity</string>
+    <string name="zarzadzaj_brama">Here you can manage the status of the gate</string>
+    <string name="zarzadzaj_zasilaniem">Here you can change the gateway settings</string>
+    <string name="Login">Login</string>
+    <string name="Menu" translatable="false">Menu</string>
+    <string name="internet">Internet</string>
+    <string name="error">Error</string>
+    <string name="haslo">Password</string>
+    <string name="moc">Power</string>
+</resources>
